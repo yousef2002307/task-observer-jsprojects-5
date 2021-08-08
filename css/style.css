@@ -1,0 +1,75 @@
+div.input {
+  background: #00878b;
+  padding: 17px 12px;
+  margin: 50px;
+}
+
+div.input input {
+  padding: 11px 12px;
+  width: 100%;
+  background: #42aaad;
+  border: 1px solid #41a086;
+  color: #fff;
+  position: relative;
+  display: block;
+}
+
+div.input i {
+  position: absolute;
+  top: 71px;
+  right: 221px;
+  background: #fff;
+  color: #11cc04;
+  display: block;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  line-height: 43px;
+  text-align: center;
+  cursor: pointer;
+}
+div.input input:focus-visible {
+  border: 1px solid #41a086;
+}
+ul {
+  background-color: #f6f6f6;
+  padding: 14px 23px;
+}
+ul li {
+  display: block;
+  width: 100%;
+  padding: 15px 16px;
+  background-color: #fefefe;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+ul li span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul li span.active {
+  text-decoration: line-through;
+}
+ul li button {
+  position: absolute;
+  right: 22px;
+  top: 13px;
+  background: #f7305b;
+  border: 1px solid #fff;
+  padding: 4px 15px;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+}
+p {
+  font-weight: bold;
+}
+p:first-of-type {
+  float: left;
+}
+p:nth-of-type(2) {
+  float: right;
+}
